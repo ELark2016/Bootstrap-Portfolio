@@ -1,0 +1,48 @@
+
+
+/* Sticky footer styles 
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    /* Margin bottom by footer height */
+    /* background-image: url("../images/vintage-concrete.png"); */
+    margin-bottom: 60px;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    border-top: solid 5px #4aaaa5;
+    background: #666;
+  }
+
+    /* Styling for about section at top right of pages */
+    #about {
+      padding: 5px;
+      margin: 5px;
+      border-bottom: solid 2px #ddd;
+    }
+  
+    #img-profile-pic {
+      border: solid 2px #ddd;
+      margin: 10px;
+      float: left;
+      /* position: relative; */
+    }
+  
+    /* Styling for contact section at top right of pages */
+    #contact {
+      padding: 5px;
+      margin: 5px;
+      border-bottom: solid 2px #ddd;
+    }
+
+
+
