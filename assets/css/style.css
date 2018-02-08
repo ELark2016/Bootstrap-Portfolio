@@ -8,10 +8,10 @@ html {
   }
   body {
     /* Margin bottom by footer height */
-    /* background-image: url("../images/vintage-concrete.png"); */
+    background-image: url("../images/concrete_seamless.png");
     margin-bottom: 60px;
   }
-  
+
   .footer {
     position: absolute;
     bottom: 0;
@@ -23,25 +23,79 @@ html {
     background: #666;
   }
 
-    /* Styling for about section at top right of pages */
+  /* Styling for headers */
+  h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+  }
+
+  h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+  }
+
+  #name-elizabeth {
+    width: 275px;
+    height: 100%;
+    margin: 0px;
+    background: #4aaaa5;
+    color: #fff;
+  }
+
+    /* Navigation Border */
+    .navigation-border {
+      border: solid 2px #ddd;
+      width: 100%;
+      height: 100%;
+    }
+
+    #pg-navigation {
+      float: right;
+    }
+
+    .bar-display {
+      display: inline-block;
+     
+    }
+
+    /* Styling for 'About Me' section */
     #about {
       padding: 5px;
       margin: 5px;
       border-bottom: solid 2px #ddd;
+      color: #4aaaa5;
     }
   
-    #img-profile-pic {
+    .about-me-main {
       border: solid 2px #ddd;
+      padding: 5px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+    }
+     
+
+    #img-profile-pic {
+      padding: 5px;
       margin: 10px;
       float: left;
-      /* position: relative; */
+    }
+
+    #about-bio-text {
+      padding-top: 6px;
+    
     }
   
     /* Styling for contact section at top right of pages */
+    #contact-sec {
+      border: solid 2px #ddd;
+      height: 100%;
+      width: 100%;
+      padding: 15px 5px;
+      margin-bottom: 10px;
+    }
     #contact {
       padding: 5px;
       margin: 5px;
       border-bottom: solid 2px #ddd;
+      color: #44aaaa;
     }
 
 
