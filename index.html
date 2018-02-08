@@ -10,9 +10,10 @@
   </head>
   <body>
     
-      <div class="container">
-        <nav class="navbar navbar-default">
-            <div class="navigation-border bg-white">
+      <!-- <div class="container"> -->
+        <nav class="navbar navbar-default border-bottom bg-white">
+            <div class="navigation-border">
+              <div class="container">
               <div class="navbar-header">
                   <a class="navbar-text" id="name-elizabeth"><h1>Elizabeth Lark</h1></a>
               
@@ -20,16 +21,17 @@
                   <a class="nav-link active" href="#">About <p class="bar-display">|</p></a>
                   <a class="nav-link" href="portfolio.html">Portfolio <p class="bar-display">|</p></a>
                   <a class ="nav-link" href="contact.html">Contact <p class="bar-display"></p></p></a>
+              </div>
               </div> 
             </div>
         </nav>
-      </div>
+      <!-- </div> -->
         
       <div class="container">
           <div class="row">
             <div class="col-7">
               <div class="about-me-main bg-white">
-                <h1 class="pull-left" id="about">About Me Section</h1>
+                <h1 class="pull-left font-weight-bold" id="about">About Me Section</h1>
                 <img class="pull-left" id="img-profile-pic" src="assets/images/LizLarkHeadshot.jpg" height="200" width="200">
                 <p id="about-bio-text">
                   Elizabeth Lark is a seasoned professional with several years of experience working in IT project delivery. She enjoys working with teams to help them achieve high performance. In addition to coaching teams, she also enjoys working with individuals to help them realize their professional development goals. As a mentor, she finds enjoyment in helping others realize their goals.            
@@ -38,9 +40,11 @@
                 </p>
               </div>
             </div>
-              <div class="col"></div>
+              <!-- Inserted an empty div here to serve as a "dummy col" 
+              so that the contact section will align properly  -->
+            <div class="col-1"></div>
                 <div class="col-3" id="contact-sec">
-                    <h2 id="contact">Contact Section</h2>
+                    <h2 id="contact">Connect with Me</h2>
                     <div class="col">
                         <div class="float-left">
                           <a href="https://github.com/ELark2016" target="_blank"><img src="assets/images/github.png" alt="GitHub Page" height="71" width="71"></a>
