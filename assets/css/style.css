@@ -37,8 +37,12 @@ html {
     width: 275px;
     height: 100%;
     margin: 0px;
+    font-weight: bold;
     background: #4aaaa5;
     color: #fff;
+    position: relative;
+    top: 8px;
+    left: 15px;
   }
 
     /* Navigation Border */
@@ -49,13 +53,14 @@ html {
 
     #pg-navigation {
       float: right;
+      color: #777;
     }
 
     .bar-display {
       display: inline-block;
      
     }
-
+    
     /* Styling for 'About Me' section */
     #about {
       padding: 5px;
@@ -69,12 +74,11 @@ html {
       color: #777;
       border: solid 2px #ddd;
       padding: 5px;
-      margin-top: 10px;
+      margin-top: 5px;
       margin-bottom: 10px;
       margin-left: 15px;
     }
-     
-
+    
     #img-profile-pic {
       padding: 5px;
       margin: 10px;
@@ -83,7 +87,6 @@ html {
 
     #about-bio-text {
       padding-top: 6px;
-    
     }
   
     /* Styling for contact section at top right of pages */
@@ -92,12 +95,12 @@ html {
       height: 100%;
       width: 100%;
       padding: 10px;
-      margin-top: 10px;
+      margin-top: 5px;
       margin-bottom: 10px;
       margin-left: 62px;
       background: #fff;
-
     }
+    
     #contact {
       padding: 5px;
       margin: 5px;
